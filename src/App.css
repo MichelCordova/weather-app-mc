@@ -1,0 +1,62 @@
+/*------Reset*------*/
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #000;
+  color: #fff;
+}
+img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  
+}
+h3{
+  padding-top: 30px;
+  font-size: 50px;
+}
+
+ul{
+  list-style: none;
+}
+
+button{
+  display: inline-block;
+  font-family: inherit;
+  cursor: pointer;
+}
+button{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: transform .5s;
+  background-color: #888;
+  color:#000;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+/*------app------*/
+.app{
+  background-image: url('https://png.pngtree.com/background/20230409/original/pngtree-sky-color-clouds-climate-picture-image_2375464.jpg');
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
